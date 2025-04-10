@@ -1,66 +1,94 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-	<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<title> Luciano Rossi - Homepage</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  </head>
-	
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Luciano Rossi - Homepage</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+    }
+    header {
+      background-color: #0d6efd;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 4rem;
+      padding: 1rem;
+      background-color: #e9ecef;
+    }
+    .card-icon {
+      font-size: 1.5rem;
+      color: #0d6efd;
+    }
+  </style>
 </head>
-
 <body>
 
-<div class="container-fluid">
-	<svg class="bi" width="32" height="32" fill="currentColor">
-  		<use xlink:href="bootstrap-icons.svg#heart-fill"/>
-	</svg>
-	<svg class="bi" width="32" height="32" fill="currentColor">
-  		<use xlink:href="bootstrap-icons.svg#toggles"/>
-	</svg>
-	<svg class="bi" width="32" height="32" fill="currentColor">
-  		<use xlink:href="bootstrap-icons.svg#shop"/>
-	</svg>
+<header>
+  <h1 class="mb-0">Luciano Rossi</h1>
+  <p class="lead">Professor | Pesquisador | Cientista da Computação</p>
+</header>
 
-	<h2>Luciano Rossi</h2>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
-<ul>
-	<li> Doutorado em Ciência da Computação - <a href="http://poscomp.ufabc.edu.br/">Universidade Federal do ABC (UFABC - CMCC)</a><br> 
-	<li> Áreas de pesquisa: Mineração de grafos e Cientometria.<br>
-	<li> Professor no Centro Universitário FEI - <a href="https://portal.fei.edu.br/">FEI</a><br>
-</ul>
+<main class="container my-5">
 
-	
-</div>
-	
-<div class="container-fluid">
-<h3>Informações</h3>
-<ul>
-	<li> <a href="http://lattes.cnpq.br/4231401119207209">Currículo <i>Lattes</i></a>
-	<li> <a href="https://www.researchgate.net/profile/Luciano_Rossi2"><i>Research Gate profile</i></a>
-	<li> <a href="https://scholar.google.com.br/citations?user=wWxKQjoAAAAJ&hl=pt-BR"><i>Google Scholar</i></a>
-	<li> <a href="http://plataforma-acacia.org/">Plataforma Acácia</a>
-	<li> <a href="http://poscomp.ufabc.edu.br/eventos/workshop-andre-balan-de-pos-graduacao-em-ciencia-da-computacao/">Workshop André Balan</a> <a href="http://poscomp.ufabc.edu.br/wp-content/uploads/2018/12/luciano_presentation.pdf">(Slides)</a>
-</ul>
-</div>
+  <div class="row g-4">
+    <div class="col-md-6">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-mortarboard-fill card-icon"></i> Formação</h5>
+          <p class="card-text">
+            Doutorado em Ciência da Computação pela <a href="http://poscomp.ufabc.edu.br/" target="_blank">Universidade Federal do ABC (UFABC - CMCC)</a><br>
+            Áreas de pesquisa: Mineração de grafos e Cientometria.<br>
+            Professor no <a href="https://portal.fei.edu.br/" target="_blank">Centro Universitário FEI</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-6">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-person-lines-fill card-icon"></i> Perfis e Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="http://lattes.cnpq.br/4231401119207209" target="_blank">Currículo Lattes</a></li>
+            <li><a href="https://www.researchgate.net/profile/Luciano_Rossi2" target="_blank">ResearchGate</a></li>
+            <li><a href="https://scholar.google.com.br/citations?user=wWxKQjoAAAAJ&hl=pt-BR" target="_blank">Google Scholar</a></li>
+            <li><a href="http://plataforma-acacia.org/" target="_blank">Plataforma Acácia</a></li>
+            <li><a href="http://poscomp.ufabc.edu.br/eventos/workshop-andre-balan-de-pos-graduacao-em-ciencia-da-computacao/" target="_blank">Workshop André Balan</a> (<a href="http://poscomp.ufabc.edu.br/wp-content/uploads/2018/12/luciano_presentation.pdf" target="_blank">Slides</a>)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-<div class="container-fluid">
-<h3>Topic Modeling</h3>
-<ul>
-	<li> <a href="https://github.com/Rossi-Luciano/homepage/blob/master/Topic_modeling.pdf">Descrição do método para a modelagem de tópicos (Plataforma CpE)</a>
-</ul>
-</div>
+    <div class="col-12">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-journal-text card-icon"></i> Topic Modeling</h5>
+          <p class="card-text">
+            <a href="https://github.com/Rossi-Luciano/homepage/blob/master/Topic_modeling.pdf" target="_blank">
+              Descrição do método para modelagem de tópicos (Plataforma CpE)
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
+</main>
 
-<hr/>
-<div class="container-fluid" id="rodape">
-	<p><i>Última modificação: 2022-Ago-26</i></p>
-	<p><i>Contato: <a href="mailto:luciano.rossi.lucross@gmail.com">luciano.rossi.lucross@gmail.com</a></i></p>
-</div>
+<footer>
+  <p>Última modificação: 26 de agosto de 2022</p>
+  <p>Contato: <a href="mailto:luciano.rossi.lucross@gmail.com">luciano.rossi.lucross@gmail.com</a></p>
+</footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
